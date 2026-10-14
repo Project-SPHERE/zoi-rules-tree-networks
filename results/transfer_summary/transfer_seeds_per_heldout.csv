@@ -1,0 +1,16 @@
+by,mode,held_out,runs,F1_frozen_mean,F1_frozen_min,F1_frozen_max,MCC_frozen_mean,MCC_frozen_min,MCC_frozen_max,F1_form_refit_mean,F1_form_refit_min,F1_form_refit_max,top_rule,top_rule_runs,distinct_rules
+plot,stability,ABIES_000,10,0.9963,0.9946,0.9965,0.9955,0.9934,0.9957,0.9979,0.9959,0.9981,log(dbh)@sp + p067(dbh)@sp,9,2
+plot,stability,ABIES_050,10,0.9973,0.9965,0.9975,0.9967,0.9957,0.997,0.9978,0.9962,0.9982,log(dbh)@sp + p067(dbh)@sp,8,2
+plot,stability,ABIES_100,10,0.9951,0.9933,0.9971,0.9941,0.9919,0.9965,0.9962,0.9949,0.9986,1@sp + p067(dbh)@sp,5,4
+plot,stability,FAGUS_000,10,0.9983,0.9968,0.9986,0.9979,0.996,0.9982,0.9992,0.998,0.9994,log(dbh)@sp + p067(dbh)@sp,6,5
+plot,stability,FAGUS_050,10,0.997,0.997,0.9973,0.9959,0.9958,0.9962,0.9973,0.9973,0.9975,log(dbh)@sp + p067(dbh)@sp,9,2
+plot,stability,FAGUS_100,10,0.9977,0.9972,0.9979,0.9965,0.9957,0.9968,0.9985,0.9982,0.9989,log(dbh)@sp + p067(dbh)@sp,7,3
+plot,stability,PICEA_000,10,0.9954,0.9949,0.9955,0.9944,0.9939,0.9946,0.9975,0.9974,0.9977,log(dbh)@sp + p067(dbh)@sp,7,4
+plot,stability,PICEA_050,10,0.9966,0.9958,0.9973,0.996,0.995,0.9968,0.9975,0.9966,0.9981,log(dbh)@sp + p067(dbh)@sp,4,5
+plot,stability,PICEA_100,10,0.9951,0.9943,0.9959,0.9937,0.9926,0.9947,0.9977,0.9971,0.9981,log(dbh)@sp + p067(dbh)@sp,7,4
+type,single,ABIES,10,0.9968,0.9968,0.9968,0.9961,0.9961,0.9961,0.9973,0.9973,0.9973,p067(dbh)@sp + p075(dbh)@sp,10,1
+type,single,FAGUS,10,0.9974,0.9974,0.9974,0.9965,0.9965,0.9965,0.9979,0.9979,0.9979,log(dbh)@sp + p067(dbh)@sp,10,1
+type,single,PICEA,10,0.9876,0.9874,0.9877,0.985,0.9847,0.9851,0.99,0.9899,0.9905,log(dbh)@all + p075(dbh)@sp + sq(dbh)@all,7,3
+type,stability,ABIES,10,0.9964,0.9951,0.9972,0.9957,0.9941,0.9966,0.9969,0.9958,0.9974,dbh@sp + p067(dbh)@sp,4,4
+type,stability,FAGUS,10,0.9971,0.9964,0.9974,0.9961,0.9951,0.9965,0.9977,0.9968,0.9982,log(dbh)@sp + p067(dbh)@sp,5,5
+type,stability,PICEA,10,0.9888,0.9879,0.9895,0.9864,0.9853,0.9873,0.9914,0.9899,0.9928,dbh@all + p067(dbh)@sp,5,3

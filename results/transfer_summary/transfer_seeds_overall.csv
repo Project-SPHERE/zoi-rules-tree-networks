@@ -1,0 +1,4 @@
+by,mode,runs,F1_frozen_mean,F1_frozen_min,F1_frozen_max,MCC_frozen_mean,MCC_frozen_min,MCC_frozen_max,F1_form_refit_mean,F1_form_refit_min,F1_form_refit_max
+plot,stability,10,0.9965,0.9961,0.997,0.9956,0.9951,0.9962,0.9977,0.9974,0.9981
+type,single,10,0.994,0.9939,0.994,0.9925,0.9924,0.9926,0.9951,0.995,0.9952
+type,stability,10,0.9941,0.9937,0.9946,0.9927,0.9922,0.9934,0.9953,0.9947,0.9959

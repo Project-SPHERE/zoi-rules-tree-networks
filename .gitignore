@@ -1,0 +1,6 @@
+data/
+results/*
+!results/rate/
+!results/synth_stats/
+!results/transfer_summary/
+__pycache__/
