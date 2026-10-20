@@ -1,6 +1,6 @@
 # Interpretable zone-of-influence rules learned from tree networks
 
-This repository contains the code used for the article *Interpretable zone-of-influence rules learned from tree networks transfer accurately across forest plots*.
+This repository contains the code used for the article *Learning interpretable and transferable zone-of-influence rules from networks of interacting trees*.
 
 ## Files
 
